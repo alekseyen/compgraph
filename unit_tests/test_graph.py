@@ -154,7 +154,3 @@ def test_graph_from_iter() -> None:
     result = graph.run(docs=lambda: iter(docs))
 
     assert result == expected
-
-
-def test_graph_from_file() -> None:
-    pass
